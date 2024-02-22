@@ -16,6 +16,18 @@ Ocean-sea ice mechanism contains code for Figure S4
 
 Python files:
 
+large_eruption_response contains calculations for mean response large single and double eruptions
+
+min_max_llcp contains processing of long-lasting cold periods for Figure 5
 
 
+Bash files:
+
+holocene_NH contains postprocessing of model output for NH temperature
+
+holocene_Arctic contains postprocessing of model output for Arctic temperature --> comparison with Kaufman 2020
+
+holocene_coldperiods contains postprocessing of model output data for Figure 5
+
+holocene_landmask contains processing for land only temperatures
 
