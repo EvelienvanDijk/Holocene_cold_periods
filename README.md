@@ -1,7 +1,9 @@
 # Holocene_cold_periods
-Scripts for calculations and postprocessing of the model data
+Scripts for calculations and postprocessing of the model data 
 
-Jupyter notebooks:
+DOI: 10.5281/zenodo.10692382
+
+## Jupyter notebooks:
 
 Cold_events_temp_approach contains the code for Figure 1,2,3,S1,S2
 
@@ -14,14 +16,14 @@ temperature_response contains code for Figure S3
 Ocean-sea ice mechanism contains code for Figure S4
 
 
-Python files:
+## Python files:
 
 large_eruption_response contains calculations for mean response large single and double eruptions
 
 min_max_llcp contains processing of long-lasting cold periods for Figure 5
 
 
-Bash files:
+## Bash files:
 
 holocene_NH contains postprocessing of model output for NH temperature
 
