@@ -1,0 +1,9 @@
+#! /bin/bash -x
+
+cd /work/bm0963/from_Mistral/bm0963/b380761/Holocene
+
+cdo sellonlatbox,-180,180,60,90 slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_Arc.nc
+cdo seasmean slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_Arc.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_Arc_seas.nc
+cdo yearmean slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_Arc.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_Arc_ym.nc
+cdo fldmean slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_Arc_ym.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_Arc_ym_fm.nc
+cdo fldmean slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_Arc_seas.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_Arc_seas_fm.nc

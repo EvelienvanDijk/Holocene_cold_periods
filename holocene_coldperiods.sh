@@ -1,0 +1,12 @@
+#! /bin/bash -x
+
+cd /work/bm0963/from_Mistral/bm0963/b380761/Holocene
+
+# For cold periods calculated by subtracting 1000y running mean orbital run --> min  max diff maps
+cdo seltimestep,7540/7740 slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr_LIA.nc
+cdo seltimestep,6881/7081 slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr_MWP.nc
+cdo seltimestep,6420/6620 slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr_LALIA.nc
+cdo seltimestep,6000/6200 slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr_RWP.nc
+cdo seltimestep,1905/2105 slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr_4000BCE_cp.nc
+cdo seltimestep,3057/3257 slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr.nc slo0042+slo0046+slo0050_echam6_BOT_mm_1001_8850_167_NH_ymean_detr_2800BCE_wp.nc
+
